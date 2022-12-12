@@ -1,0 +1,47 @@
+
+
+@charset "UTF-8";
+* { box-sizing: border-box; }
+
+body {   
+        font-family: sans-serif;
+        background-color: #008BCB;
+        color: white;
+        text-align: left;
+        /*background-image: url("wallpaper.jpeg");
+        background-repeat: no-repeat;*/
+        
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.wrapper {
+    margin: 15px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-left {
+  width: 400px;
+  height: 50vh;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid red;
+}
+
+.flex-right {
+width: 400px;
+  height: 50vh;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid green;
+}
+
+
