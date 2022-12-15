@@ -1,16 +1,13 @@
-
-
 @charset "UTF-8";
 * { box-sizing: border-box; }
 
 body {   
-        font-family: sans-serif;
-        background-color: #008BCB;
-        color: white;
-        text-align: left;
-        /*background-image: url("wallpaper.jpeg");
-        background-repeat: no-repeat;*/
-        
+    font-family: sans-serif;
+    background-color: #008BCB;
+    color: white;
+    text-align: left;
+    /*background-image: url("wallpaper.jpeg");
+    background-repeat: no-repeat;*/
 }
 
 img {
@@ -19,29 +16,42 @@ img {
 }
 
 .wrapper {
-    margin: 15px;
+    margin: 30px;
 }
 
 .flex-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center
 }
 
 .flex-left {
   width: 400px;
-  height: 50vh;
+  height: 600px;
   margin: 5px;
   padding: 5px;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 
 .flex-right {
-width: 400px;
-  height: 50vh;
+  width: 400px;
+  height: 600px;
   margin: 5px;
   padding: 5px;
-  border: 2px solid green;
+  /*border: 2px solid green;*/
 }
 
+.darkbluebox {
+    width: 400px;
+    height: 500px;
+    background: #005994;
+    border-radius: 4px;
+}
 
+.line {
+    width: 800px;
+    height: 2px;
+    border-radius: 25px;
+    background: white;
+}
